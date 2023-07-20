@@ -219,6 +219,9 @@
   max-width: 100%;
   height: auto;
 }
+.image-container i {
+  margin-top: 150px;
+}
 
 .overlay {
   position: absolute;
@@ -234,6 +237,9 @@
 .image-container:hover .overlay {
   opacity: 1;
   cursor: pointer;
+  text-align: center;
+  border: 2px solid rgba(65, 65, 128, 0.726);
+  border-radius: 5px;
 }
 
 .play-button {
@@ -417,9 +423,9 @@
   padding: 5px 10px;
 }
 
-.btn-option:hover{
-  border: 1px solid #4EC5F7;
-  color: #4EC5F7;
+.btn-option:hover {
+  border: 1px solid #4ec5f7;
+  color: #4ec5f7;
 }
 
 .footer {
